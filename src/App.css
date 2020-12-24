@@ -9,30 +9,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #181818 !important;
 }
-/* .MovieCard {
-  width: 80vw;
-  max-width: 1200px;
-  margin: 5rem auto;
-  display: grid;
-  gap: 2rem;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .MovieCard {
-    grid-template-columns: repeat(3, 1fr);
-  }
-} */
-/* .MovieList {
-  background: #fff;
-  border: 2px groove rgb(209, 158, 158);
-  box-shadow: 0 5px 10px 0 #9c8e79;
-  padding: 1rem 2rem;
-} */
 
 /* App.js */
 header {
@@ -122,4 +98,32 @@ header {
 /* Rating.js */
 .starSearch {
   font-size: 27px;
+}
+/* .Description.js */
+.Description {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 60px;
+}
+.Description h4 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+.Description p {
+  font-size: 14px;
+  color: rgb(139, 139, 133);
+}
+.Description iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Description Button {
+  background-color: rgb(139, 139, 133);
+  font-size: 15px;
 }

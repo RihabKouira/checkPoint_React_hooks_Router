@@ -1,12 +1,15 @@
 import React from "react";
+import Description from "./Description";
 import MovieCard from "./MovieCard";
+import { Route } from "react-router-dom";
 
-const MovieList = (props) => {
+const MovieList = ({ movies }) => {
   return (
     <div className="MovieList">
-      {props.movies.map((el) => {
+      {movies.map((el) => {
         return <MovieCard movies={el} />;
       })}
+  
     </div>
   );
 };

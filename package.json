@@ -19,6 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-star-rating-component": "^1.4.1",
+    "uuidv4": "^6.2.6",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

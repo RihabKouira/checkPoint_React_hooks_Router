@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Button, Modal, Col, Row, Container } from "react-bootstrap";
 import { FiPlusCircle } from "react-icons/fi";
+import { uuid } from "uuidv4";
 
 const AddMovie = (props) => {
   const [show, setShow] = useState(false);
@@ -15,6 +16,7 @@ const AddMovie = (props) => {
   };
   const [addMovie, setAddMovie] = useState(() => {
     return {
+      id: uuid(),
       title: "",
       auther: "",
       img: "",
